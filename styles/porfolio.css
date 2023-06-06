@@ -1,6 +1,52 @@
-/* font-family: 'Lobster', cursive;
-font-family: 'Playfair Display', serif;*/
+:root{
+    --primary-bg-color: black;
+    --secondary-bg-color: #8B62FF;
+    --primary-txt-color: white;
+    --secondary-txt-color: black;
+    --highlight-txt-color: #8B62FF;
+    --heading-font-family: "Lobster Two", cursive;
+    --secondary-font-family: 'Playfair Display', serif;
+    --primary-border-color: #8B62FF;
+    
+}
 
 body{
-    background-color: black;
+   background-color: var(--primary-bg-color);
+   border: 4px solid var(--primary-border-color);
+   border-style:outset;
+}
+
+.hero{
+    color: var(--primary-txt-color);
+    font-family: var(--secondary-font-family);
+    font-size:16px;
+    margin-left: 200px;
+    padding: 160px 0;
+}
+
+.name{
+    color:var(--highlight-txt-color);
+    font-family: var(--heading-font-family); 
+    font-size: 72px;   
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.current-role{
+    font-size: 18px;
+}
+
+.hero-paragraph{
+    font-size: 12px;
+}
+
+.connect-button{
+    text-decoration: none;
+    color: var(--secondary-txt-color);
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-style: italic;
+    background: var(--secondary-bg-color);
+    padding: 8px 24px; 
+    border-radius: 10px;
 }
