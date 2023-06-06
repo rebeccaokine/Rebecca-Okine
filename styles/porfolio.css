@@ -19,25 +19,33 @@ body{
 .hero{
     color: var(--primary-txt-color);
     font-family: var(--secondary-font-family);
-    font-size:16px;
-    margin-left: 200px;
-    padding: 160px 0;
+    padding: 50px 0;
+}
+
+.hero-text{
+    font-size:18px;
+    margin-left: 270px;
+}
+
+.hi{
+    color:var(--highlight-txt-color);
+    font-weight: bolder;
 }
 
 .name{
     color:var(--highlight-txt-color);
     font-family: var(--heading-font-family); 
-    font-size: 72px;   
+    font-size: 96px;   
     font-weight: bolder;
     font-style: italic;
 }
 
 .current-role{
-    font-size: 18px;
+    font-size: 36px;
 }
 
 .hero-paragraph{
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .connect-button{
@@ -45,8 +53,39 @@ body{
     color: var(--secondary-txt-color);
     font-family: var(--heading-font-family);
     font-weight: bold;
+    font-size: 22px;
     font-style: italic;
     background: var(--secondary-bg-color);
-    padding: 8px 24px; 
+    padding: 10px 36px; 
     border-radius: 10px;
+}
+
+.social-icons a{
+    color: var(--primary-txt-color);
+    margin-left: 60px ;
+    position: fixed;
+}
+
+.vl {
+  border-left: 2px solid var(--primary-txt-color);
+  height: 140px;
+  margin-left: 70px;
+  position: fixed;
+}
+
+.navigation-btns{
+    color: var(--highlight-txt-color);
+    font-family: var(--heading-font-family);
+    font-size: 18px;
+    text-align: right;
+    margin-right: 80px;
+    line-height: 1;
+    vertical-align: top;
+    
+}
+
+.navigation-btns a{
+    text-decoration: none;
+    color: var(--highlight-txt-color);
+    font-weight: bold;
 }

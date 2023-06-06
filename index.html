@@ -14,10 +14,7 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://kit.fontawesome.com/53871ffb15.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,28 +24,47 @@
     <link rel="stylesheet" href="styles/porfolio.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
   </head>
   <body>
     <div class="hero">
-      <p class="mb-0">Hi, I am</p>
+      <div class="hero-text"> 
+      <p class="mb-0 mt-5"><span class="hi">Hi,</span> I am</p>
       <h1 class="name mb-0">Rebecca Okine</h1>
-      <h3 class="current-role mb-0">Frontend Developer from Ghana</h3>
-      <p class="hero-paragraph mb-8">
+      <h3 class="current-role mb-2">Frontend Developer from Ghana</h3>
+      <p class="hero-paragraph mb-5">
         I am deeply passionate about the fusion of code and creativity.
-        Alongside <br /> my coding endeavors, you'll often find me with
-        headphones on,<br /> lost in the rhythm of music or diving deep into thought-provoking podcasts.
+        Alongside <br />
+        my coding endeavors, you'll often find me with headphones on,<br />
+        lost in the rhythm of music or diving deep into thought-provoking
+        podcasts.
       </p>
       <a href="mailto:rebeccaokine.na@gmail.com" class="connect-button"
         >Let's Connect</a>
-      
-     <div class="social-icons">
+      </div>
 
-     </div>
-      
-     <div class="navigation-btns">
-        
-     </div>
-      
+      <div class="side-view">
+      <div class="social-icons">
+        <a href=""><i data-feather="github"></i></a><br /><br />
+        <a href=""><i data-feather="linkedin"></i></a><br /><br />
+        <a href=""><i data-feather="twitter"></i></a><br /><br />
+        <a href=""><i data-feather="instagram"></i></a><br /><br />
+      </div>
+      <script>
+        feather.replace();
+      </script>
+ 
+      <!--adding vertical line-->
+      <div class="vl"></div>
+      </div>
+
+      <div class="navigation-btns">
+        <a href=""> &lt; Home &gt;</a><br />
+        <a href=""> &lt; About &gt;</a> <br />
+        <a href=""> &lt; Experience &gt;</a><br />
+        <a href=""> &lt; Portfolio &gt;</a><br />
+        <a href="">&lt; Contact &gt;</a>
+      </div>
     </div>
   </body>
 </html>
