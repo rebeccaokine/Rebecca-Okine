@@ -22,6 +22,7 @@ body{
 
 .navbar .container{
     margin-left: 50px;
+    
 }
 
 .logo{
@@ -48,6 +49,7 @@ body{
     font-size:18px;
     margin-left: 270px;
     margin-top: 30px;
+
 }
 
 .hi{
@@ -89,6 +91,11 @@ body{
     position: fixed;
 }
 
+.social-icons a {
+  color: var(--primary-txt-color);
+  margin-bottom: 10px;
+}
+
 .vl {
   border-left: 2px solid var(--primary-txt-color);
   height: 150px;
@@ -100,10 +107,12 @@ body{
     color: var(--highlight-txt-color);
     font-family: var(--heading-font-family);
     font-size: 18px;
-    text-align: right;
-    margin-right: 80px;
-    line-height: 1;
-    vertical-align: top;    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 60px 0 0;
+     
+       
 }
 
 .navigation-btns a{
@@ -111,3 +120,4 @@ body{
     color: var(--highlight-txt-color);
     font-weight: bold;
 }
+
