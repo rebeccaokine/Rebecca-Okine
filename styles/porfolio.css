@@ -12,19 +12,42 @@
 
 body{
    background-color: var(--primary-bg-color);
-   border: 4px solid var(--primary-border-color);
-   border-style:outset;
+   border: 5px solid var(--primary-border-color);
+   border-style:dotted;
 }
+
+.navbar {
+  padding: 20px 0 0 ;
+}
+
+.navbar .container{
+    margin-left: 50px;
+}
+
+.logo{
+    max-width: 50px;
+}
+
+.resume{
+    text-decoration: none;
+    color: var(--highlight-txt-color);
+    font-family: var(--heading-font-family);
+    font-size: 20px;
+    border: 2px solid var(--secondary-bg-color);
+    border-radius: 15px;
+    padding: 8px 24px;  
+}
+
 
 .hero{
     color: var(--primary-txt-color);
     font-family: var(--secondary-font-family);
-    padding: 50px 0;
 }
 
 .hero-text{
     font-size:18px;
     margin-left: 270px;
+    margin-top: 30px;
 }
 
 .hi{
@@ -57,7 +80,7 @@ body{
     font-style: italic;
     background: var(--secondary-bg-color);
     padding: 10px 36px; 
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .social-icons a{
@@ -68,7 +91,7 @@ body{
 
 .vl {
   border-left: 2px solid var(--primary-txt-color);
-  height: 140px;
+  height: 150px;
   margin-left: 70px;
   position: fixed;
 }
@@ -80,8 +103,7 @@ body{
     text-align: right;
     margin-right: 80px;
     line-height: 1;
-    vertical-align: top;
-    
+    vertical-align: top;    
 }
 
 .navigation-btns a{
