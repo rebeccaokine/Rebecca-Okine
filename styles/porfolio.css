@@ -34,15 +34,23 @@ body{
     color: var(--highlight-txt-color);
     font-family: var(--heading-font-family);
     font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
     border: 2px solid var(--secondary-bg-color);
     border-radius: 15px;
-    padding: 8px 24px;  
+    padding: 8px 24px;      
+}
+
+.resume:hover{
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-txt-color);
 }
 
 
 .hero{
     color: var(--primary-txt-color);
     font-family: var(--secondary-font-family);
+    height: 80vh;
 }
 
 .hero-text{
@@ -85,6 +93,12 @@ body{
     border-radius: 15px;
 }
 
+.connect-button:hover{
+    background-color: var(--primary-bg-color);
+    color: var(--highlight-txt-color);
+    border: 2px solid var(--primary-border-color);
+}
+
 .social-icons a{
     color: var(--primary-txt-color);
     margin-left: 60px ;
@@ -96,6 +110,10 @@ body{
   margin-bottom: 10px;
 }
 
+.social-icons a:hover{
+    color: var(--secondary-bg-color);
+}
+
 .vl {
   border-left: 2px solid var(--primary-txt-color);
   height: 150px;
@@ -103,21 +121,46 @@ body{
   position: fixed;
 }
 
-.navigation-btns{
+.sidebar-navigation{
     color: var(--highlight-txt-color);
     font-family: var(--heading-font-family);
     font-size: 18px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin: 0 60px 0 0;
-     
-       
+    position: fixed;
+    right: 0;
+    padding-right: 5%;
+    bottom: 15%
 }
 
-.navigation-btns a{
+.sidebar-navigation a{
     text-decoration: none;
     color: var(--highlight-txt-color);
     font-weight: bold;
 }
 
+.sidebar-navigation a:hover{
+  color: var(--primary-txt-color);
+}
+
+/* For Webkit based browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+  border-radius: 15px;
+ 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-bg-color);
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--secondary-bg-color);
+}
