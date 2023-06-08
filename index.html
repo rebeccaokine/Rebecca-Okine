@@ -15,6 +15,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="app.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,17 +28,19 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
   </head>
   <body>
+    <!--Navbar-->
     <nav class="navbar">
       <div class="container">
-        <a class="navbar-brand" href="">
+        <a class="navbar-brand" href="#">
           <img src="images/logo.png" class="logo" alt="" />
         </a>
         <a href="" class="resume">Resume</a>
       </div>
     </nav>
 
-    <div class="hero">
-      <div class="hero-text">
+    <div class="main-content">
+      <!--Hero Section-->
+      <div class="hero">
         <p class="mb-0 mt-5"><span class="hi">Hi,</span> I am</p>
         <h1 class="name mb-0">Rebecca Okine</h1>
         <h3 class="current-role mb-2">Frontend Developer from Ghana</h3>
@@ -48,13 +51,49 @@
           lost in the rhythm of music or diving deep into thought-provoking
           podcasts.
         </p>
-        <a href="mailto:rebeccaokine.na@gmail.com" class="connect-button"
-          >Let's Connect</a
-        >
+        <a href="mailto:rebeccaokine.na@gmail.com" class="connect-button">
+            Let's Connect
+        </a>
       </div>
 
-      <div class="fixed-links">
-        <span class="social-icons">
+      <!--About Section-->
+      <div class="about">
+        <h1 class="about-header mt-5 mb-5">&lt; About Me &gt;</h1>
+        <div class="about-contents">
+          <p class="about-paragraph">
+          Hi there! I'm Rebecca, a passionate final-year student at the</br><span class="highlighted-text">University of Ghana,</span>
+          pursuing a degree in Information Technology. </br>With
+          a strong interest in web development, I find immense joy in </br>exploring
+          the dynamic world of coding and creating engaging online </br>experiences. </p>
+          <p class="about-paragraph">
+          Throughout my academic journey, I have been captivated by the</br>
+          limitless possibilities that web development offers. From crafting</br>
+          visually stunning user interfaces to building functional and</br>
+          interactive websites, I am constantly inspired by the power of</br>
+          technology to shape our digital landscape.</p>
+          <p class="about-paragraph">Here's a glimpse into the technologies I've been actively engaged </br>with:</p>
+          
+          <div class="skills">
+            <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>RESTFUL APIs</li>
+          </ul>
+          </div>
+        </div>
+        <div>
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/792/original/portfolio_pfp.png?1686171085" class= "about-image"alt="picture of Rebecca Okine">
+        </div>
+      </div>
+    </div>
+
+    <!--Fixed links start here-->
+    <div class="fixed-links">
+      <div class="left-side">
+        <span class="social-icons mb-5">
           <a href=""><i data-feather="github"></i></a><br /><br />
           <a href=""><i data-feather="linkedin"></i></a><br /><br />
           <a href=""><i data-feather="twitter"></i></a><br /><br />
@@ -65,16 +104,17 @@
         </script>
 
         <!--adding vertical line-->
-        <div class="vl"></div>
-
-        <span class="sidebar-navigation">
-          <a href=""> &lt; Home &gt;</a>
-          <a href=""> &lt; About &gt;</a> 
-          <a href=""> &lt; Experience &gt;</a>
-          <a href=""> &lt; Portfolio &gt;</a>
-          <a href="">&lt; Contact &gt;</a>
-        </span>
+        <div class="vl "></div>
       </div>
+
+      <span class="sidebar-navigation">
+        <a href="" class="mb-3"> &lt; Home &gt;</a>
+        <a href="" class="mb-3"> &lt; About &gt;</a>
+        <a href="" class="mb-3"> &lt; Experience &gt;</a>
+        <a href="" class="mb-3"> &lt; Portfolio &gt;</a>
+        <a href="" class="mb-3">&lt; Contact &gt;</a>
+      </span>
     </div>
+    <!--fixed links end here-->
   </body>
 </html>
