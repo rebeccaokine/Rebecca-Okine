@@ -38,7 +38,8 @@
         <span></span>
       </div>
     </div>
-
+    
+    <div class="main-container">
     <!--Navbar-->
     <nav class="navbar">
         <a class="navbar-brand" href="#">
@@ -128,13 +129,19 @@
       </span>
     </div>
     <!--fixed links end here-->
+    </div>
+    <!--main container ends here-->
 
     <script>
        var loader= document.getElementById("preloader");
+        var mainContainer = document.querySelector(".main-container");
+ 
+         mainContainer.style.display = "none";
 
-       window.addEventListener("load", function(){
-        loader.style.display ="none";
-       }) 
+       setTimeout(function () {
+        loader.style.display = "none";
+        mainContainer.style.display = "block";
+      }, 5000);
 
     </script>
 

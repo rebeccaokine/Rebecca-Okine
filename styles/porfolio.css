@@ -44,30 +44,6 @@ body {
   color: var(--secondary-txt-color);
 }
 
-/**
-.social-icons a {
-  color: var(--primary-txt-color);
-  margin-left: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: fixed;
-  left: 0;
-  bottom: 15%;
-}
-
-.social-icons a:hover {
-  color: var(--secondary-bg-color);
-}
-
-.vl {
-  border-left: 2px solid var(--primary-txt-color);
-  height: 150px;
-  margin-left: 70px;
-  position:fixed;
-}
-**/
-
 .fixed-links {
   display: flex;
   align-items: end;
@@ -269,7 +245,7 @@ body {
 /*preloader*/
 #preloader {
   background: black;
-  height: 100vh;
+  height: calc(100vh - 11px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -287,19 +263,19 @@ body {
     height: 40px;
     trnsform: translateY(-5px);
     scaley: (1.7);
-    background: #ffd3a3;
+    background: #8B62FF;
   }
   50% {
     height: 10px;
     trnsform: translateY(0px);
     scaley: (1.7);
-    background: #fcffb2;
+    background: #8B62FF;
   }
   100% {
     height: 10px;
     trnsform: translateY(0px);
     scaley: (1.7);
-    background: #b6eafa;
+    background: #008FDC;
   }
 }
 
@@ -315,12 +291,12 @@ body {
   width: 10px;
   display: block;
   border-radius: 8px;
-  background: orange;
+  background: #8B62FF;
   animation: audio-wave 2.2s infinite ease-in-out;
 }
 .sound-wave span:nth-child(2) {
   left: 11px;
-  background: red;
+  background: #db02f8;
   animation-delay: 0.2s;
 }
 .sound-wave span:nth-child(3) {
