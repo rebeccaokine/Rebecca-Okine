@@ -28,6 +28,17 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
   </head>
   <body>
+    <div id="preloader">
+      <div class="sound-wave">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
     <!--Navbar-->
     <nav class="navbar">
         <a class="navbar-brand" href="#">
@@ -117,5 +128,15 @@
       </span>
     </div>
     <!--fixed links end here-->
+
+    <script>
+       var loader= document.getElementById("preloader");
+
+       window.addEventListener("load", function(){
+        loader.style.display ="none";
+       }) 
+
+    </script>
+
   </body>
 </html>
