@@ -15,6 +15,80 @@ body {
   border-style: dotted;
 }
 
+/*preloader*/
+#preloader {
+  background: black;
+  height: calc(100vh - 11px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes audio-wave {
+  0% {
+    height: 10px;
+    trnsform: translateY(0px);
+    background: #ff55bb;
+  }
+  25% {
+    height: 40px;
+    trnsform: translateY(-5px);
+    scaley: (1.7);
+    background: #8B62FF;
+  }
+  50% {
+    height: 10px;
+    trnsform: translateY(0px);
+    scaley: (1.7);
+    background: #8B62FF;
+  }
+  100% {
+    height: 10px;
+    trnsform: translateY(0px);
+    scaley: (1.7);
+    background: #008FDC;
+  }
+}
+
+.sound-wave {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 60px;
+}
+.sound-wave span {
+  height: 18px;
+  width: 10px;
+  display: block;
+  border-radius: 8px;
+  background: #8B62FF;
+  animation: audio-wave 2.2s infinite ease-in-out;
+}
+.sound-wave span:nth-child(2) {
+  left: 11px;
+  background: #db02f8;
+  animation-delay: 0.2s;
+}
+.sound-wave span:nth-child(3) {
+  left: 22px;
+  animation-delay: 0.4s;
+}
+.sound-wave span:nth-child(4) {
+  left: 33px;
+  animation-delay: 0.6s;
+}
+.sound-wave span:nth-child(5) {
+  left: 44px;
+  animation-delay: 0.8s;
+}
+.sound-wave span:nth-child(6) {
+  left: 55px;
+  animation-delay: 1s;
+}
+
 .navbar {
   width: 100%;
   padding: 20px 0 25px 0;
@@ -242,76 +316,36 @@ body {
   background-color: var(--secondary-bg-color);
 }
 
-/*preloader*/
-#preloader {
-  background: black;
-  height: calc(100vh - 11px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-}
-
-@keyframes audio-wave {
+/* CSS animation for the navbar */
+@keyframes fadeInNavbar {
   0% {
-    height: 10px;
-    trnsform: translateY(0px);
-    background: #ff55bb;
-  }
-  25% {
-    height: 40px;
-    trnsform: translateY(-5px);
-    scaley: (1.7);
-    background: #8B62FF;
-  }
-  50% {
-    height: 10px;
-    trnsform: translateY(0px);
-    scaley: (1.7);
-    background: #8B62FF;
+    opacity: 0;
+    transform: translateY(-20px);
   }
   100% {
-    height: 10px;
-    trnsform: translateY(0px);
-    scaley: (1.7);
-    background: #008FDC;
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-.sound-wave {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  height: 60px;
+/* CSS animation for the main-content */
+@keyframes fadeInMainContent {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-.sound-wave span {
-  height: 18px;
-  width: 10px;
-  display: block;
-  border-radius: 8px;
-  background: #8B62FF;
-  animation: audio-wave 2.2s infinite ease-in-out;
+
+/* Apply animations to the navbar and main-content */
+.navbar {
+  animation: fadeInNavbar 1s ease-in-out;
 }
-.sound-wave span:nth-child(2) {
-  left: 11px;
-  background: #db02f8;
-  animation-delay: 0.2s;
+
+.main-content {
+  animation: fadeInMainContent 1s ease-in;
 }
-.sound-wave span:nth-child(3) {
-  left: 22px;
-  animation-delay: 0.4s;
-}
-.sound-wave span:nth-child(4) {
-  left: 33px;
-  animation-delay: 0.6s;
-}
-.sound-wave span:nth-child(5) {
-  left: 44px;
-  animation-delay: 0.8s;
-}
-.sound-wave span:nth-child(6) {
-  left: 55px;
-  animation-delay: 1s;
-}
+
