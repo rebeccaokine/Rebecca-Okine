@@ -138,7 +138,7 @@ body {
   font-family: var(--secondary-font-family);
   height: 80vh;
   font-size: 18px;
-  margin-left: 270px;
+  margin-left: 250px;
   margin-top: 30px;
   padding: 25px 0 0 0;
 }
@@ -184,8 +184,10 @@ body {
 
 /**ABOUT SECTION**/
 .about {
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
   color: var(--primary-txt-color);
-  margin-left: 270px;
 }
 
 .about-header {
@@ -231,8 +233,8 @@ body {
 }
 
 .about-image {
-  width: 300px;
- 
+  width: 400px;
+  margin-left: 50px;
 }
 
 .highlighted-text {
