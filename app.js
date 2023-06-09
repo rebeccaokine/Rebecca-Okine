@@ -6,7 +6,7 @@ mainContainer.style.display = "none";
 setTimeout(function () {
   loader.style.display = "none";
   mainContainer.style.display = "block";
-}, 4000);
+}, 1000);
 
 /*LOADER ENDS HERE */
 
