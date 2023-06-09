@@ -6,7 +6,7 @@ mainContainer.style.display = "none";
 setTimeout(function () {
   loader.style.display = "none";
   mainContainer.style.display = "block";
-}, 1000);
+}, 2000);
 
 /*LOADER ENDS HERE */
 
@@ -32,3 +32,16 @@ buttons.forEach((button) => {
     document.getElementById(target).classList.add("active");
   });
 });
+
+
+/* 
+window.addEventListener("load", function() {
+  var currentPage = window.location.pathname;
+
+  if (currentPage === "/specific-page") {
+    document.body.style.backgroundColor = "#FF0000";
+  } else {
+    document.body.style.backgroundColor = "#FFFFFF";
+  }
+});
+*/

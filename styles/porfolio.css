@@ -402,7 +402,9 @@ body {
     color: var(--primary-txt-color);
 }
 
+
 .portfolio-container{
+    margin-left: 0px;
     max-width: fit-content;
 }
 
@@ -416,6 +418,11 @@ body {
     background-color: rgba(139, 98, 255, 0.5);
     font-family: var(--secondary-font-family);
     
+}
+
+.app-name:hover{
+  color: var(--primary-txt-color);
+  cursor: pointer;
 }
 
 .app-description{
@@ -475,6 +482,9 @@ footer{
     color: var(--primary-txt-color);
 }
 
+footer a{
+  text-decoration: none;
+}
 
 .highlighted-text {
   color: var(--highlight-txt-color);
