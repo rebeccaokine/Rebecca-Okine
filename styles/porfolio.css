@@ -430,6 +430,50 @@ body {
 }
 
 /*PORTFOLIO ENDS HERE*/
+.contact-header{
+    font-family: var(--heading-font-family);
+    color: var(--highlight-txt-color);
+}
+
+.contact-content{
+   display: grid;
+   place-items: center;
+   text-align: center;
+   margin-top: 150px;
+}
+
+.contact-prompt{
+    font-size: 82px;
+}
+
+.contact-info{
+    color: var(--primary-txt-color);
+    font-family: var(--secondary-font-family);
+    font-size: 18px;
+    height: 60vh;
+}
+
+.contact-button{
+  text-decoration: none;
+  color: var(--highlight-txt-color);
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  border: 2px solid var(--secondary-bg-color);
+  border-radius: 15px;
+  padding: 8px 24px;
+  height: 30vh;
+}
+
+footer{
+    font-size: 14px;
+    font-weight: lighter;
+    place-items: center;
+    text-align: center;
+    font-family: var(--secondary-font-family);
+    color: var(--primary-txt-color);
+}
 
 
 .highlighted-text {
