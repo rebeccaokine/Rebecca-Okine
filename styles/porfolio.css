@@ -548,3 +548,6 @@ footer a{
   animation: fadeInMainContent 1s ease-in;
 }
 
+.fixed-links{
+  display: none;
+}

@@ -1,11 +1,13 @@
 var loader = document.getElementById("preloader");
 var mainContainer = document.querySelector(".main-container");
+var fixedLinks = document.querySelector(".fixed-links");
 
 mainContainer.style.display = "none";
 
 setTimeout(function () {
   loader.style.display = "none";
   mainContainer.style.display = "block";
+  fixedLinks.style.display ="block";
 }, 2000);
 
 /*LOADER ENDS HERE */
