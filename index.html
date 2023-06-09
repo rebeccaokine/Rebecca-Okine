@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <script src="app.js"></script>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,6 +28,7 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
   </head>
   <body>
+    
     <div id="preloader">
       <div class="sound-wave">
         <span></span>
@@ -70,7 +71,7 @@
       <div class="about-container">
       <div class="about">
         <div class="about-contents">
-         <h1 class="about-header mb-5">&lt; About Me &gt;</h1>
+         <h1 class="header mb-5">&lt; About Me &gt;</h1>
           <p class="about-paragraph">
           Hi there! I'm Rebecca, a passionate final-year student at the</br><span class="highlighted-text">University of Ghana,</span>
           pursuing a degree in Information Technology. </br>With
@@ -100,6 +101,98 @@
         </div>
       </div>
       
+
+      
+      <div class="experience">
+        <div class="experience-contents">
+         <h1 class="header mb-5">&lt; Experience &gt;</h1>
+         <div class="experience-section">
+           <div class="button-container">
+             <button class="experience-button " data-target="experience1">Npontu Technologies</button>
+             <button class="experience-button " data-target="experience2">CrowdReason Ghana</button>
+             <button class="experience-button"
+             data-target="experience3">Developers In Vogue</button>
+             <button class="experience-button" 
+             data-target="experience4">Google Developer Groups</button>
+           </div>
+
+            <div class="line"></div>
+
+            <div class="description-container">
+                <div id="experience1" class="experience-description active">
+                  <!-- Content for Experience 1 -->
+                  <h3>Frontend Developer Intern 
+                    <a href="https://npontu.com/" target="_blank " rel="noopener">@Npontu Technologies</a>
+                    </h4>
+                  <p> October
+                    - December 2022</p>
+                  <p>
+                    <ul>
+                        <li>
+                        Accomplished high-quality code by participating in code reviews as measured by adherence <br>to standards.
+                        </li>
+                        <li>
+                        Stayed up to date with the latest web development technologies and best
+                        practices, ensuring <br>a current and relevant skill set.
+                        </li>
+                        <li>
+                        Worked collaboratively with designers and other developers to implement design
+                        concepts <br>and ideas, demonstrating effective teamwork and communication skills
+                        </li>
+                    </ul>
+                  </p>
+                </div>
+
+                <div id="experience2" class="experience-description">
+                  <!-- Content for Experience 2 -->
+                 <h4>Intern <a href ="https://www.linkedin.com/company/crowdreason-llc/" target="_blank" rel="noopener">@ CrowdReason Ghana Limited</a>
+                </h4>
+                 <p>December 2021 - February 2022</p>
+                 <p>
+                    <ul>
+                        <li>Validated property tax bills with a high degree of      accuracy, as measured by error-free data <br>entry and consistency checking.
+                        </li>
+                        <li>
+                            Checked for errors and inconsistencies in data entered, ensuring the integrity and reliability <br>of the data.
+                        </li>
+                        <li>
+                             Accurately entered and verified data into computer systems and databases,demonstrating a<br> high level of attention to detail and accuracy.
+                        </li>
+                    </ul>
+                 </p>
+                </div>
+
+                <div id="experience3" class="experience-description">
+                 <!-- Content for Experience 3 -->
+                 <h2>Campus Ambassador <a href="">@ Developers In Vogue</a></h2>
+                 <p>
+                   <ul>
+                      <li>
+                         Promote diversity and inclusion by organizing events and raising awareness about empowering women in tech.
+                      </li>
+                      <li>
+                        Build a strong and engaged community of aspiring women developers on the campus through organizing meetups, study groups, and online forums, fostering a sense of support and empowerment.
+                      </li>
+                   </ul>
+                 </p>
+                </div>
+
+                <div id="experience4" class="experience-description">
+                 <!-- Content for Experience 3 -->
+                 <h2>Google Developer Groups</h2>
+                 <p>
+                    <ul>
+                        <li>Assist in welcoming and registering attendees, coordinating event logistics, engaging with the community, and providing overall support to ensure successful events.</li>
+                    </ul>
+                 </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
     </div>
   </div>
 
@@ -113,11 +206,7 @@
           <a href=""><i data-feather="twitter"></i></a><br /><br />
           <a href=""><i data-feather="instagram"></i></a><br /><br />
         </span>
-        <!--JS for feather icons-->
-        <script>
-          feather.replace();
-        </script>
-
+        
         <!--adding vertical line-->
         <div class="vl "></div>
       </div>
@@ -133,21 +222,8 @@
     </div>
     <!--fixed links end here-->
     </div>
-    <!--main container ends here-->
-    
-    <!--JS for preloader-->
-    <script>
-       var loader= document.getElementById("preloader");
-        var mainContainer = document.querySelector(".main-container");
- 
-         mainContainer.style.display = "none";
+    <!--main container ends here-->   
 
-       setTimeout(function () {
-        loader.style.display = "none";
-        mainContainer.style.display = "block";
-      }, 4000);
-
-    </script>
-
+    <script src="app.js"></script>
   </body>
 </html>

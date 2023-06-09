@@ -232,19 +232,19 @@ body {
   border: 2px solid var(--primary-border-color);
 }
 
+.header {
+  color: var(--highlight-txt-color);
+  font-family: var(--heading-font-family);
+  font-size: 82px;
+  font-style: italic;
+}
+
 /**ABOUT SECTION**/
 .about {
   display: flex;
   align-items: center;
   margin-left: 250px;
   color: var(--primary-txt-color);
-}
-
-.about-header {
-  color: var(--highlight-txt-color);
-  font-family: var(--heading-font-family);
-  font-size: 82px;
-  font-style: italic;
 }
 
 .about-paragraph {
@@ -286,6 +286,115 @@ body {
   width: 400px;
   margin-left: 50px;
 }
+
+/*EXPERIENCE STARTS HERE*/
+
+.experience{
+  height: 80vh;
+  margin-left: 250px;
+  margin-top: 110px;
+  color: var(--primary-txt-color);
+}
+
+.experience-section {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  font-size: 18px;
+  font-family: var(--secondary-font-family);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-button {
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+  color: var(--primary-txt-color);
+  cursor: pointer;
+  padding: 10px ;
+}
+
+.experience-button.active {
+  font-weight: bold;
+  color: var(--highlight-txt-color);
+}
+
+.experience-button:hover{
+    color: var(--highlight-txt-color);
+    background-color: #2e2053;
+    border-right: var(--highlight-txt-color);
+}
+
+.line {
+  width: 2px;
+  height: 200px;
+  background-color: #2e2053;
+  margin: 0 15px 0 10px;
+}
+
+.description-container {
+  flex-grow: 1;
+}
+
+.description-container a{
+    text-decoration: none;
+    color: var(--highlight-txt-color);
+}
+
+.experience-description {
+  display: none;
+}
+
+.experience-description.active {
+  display: block;
+}
+
+
+.experience ul {
+  list-style: none;
+}
+
+/*
+.experience ul li:before {
+  content: "";
+  position: absolute;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border: 2px solid var(--secondary-bg-color);
+  background-color: var(--primary-bg-color);
+  border-radius: 50%;
+}
+*/
+
+.experience ul {
+  list-style: none;
+}
+
+.experience ul li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.experience ul li:before {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border: 2px solid var(--secondary-bg-color);
+  background-color: var(--primary-bg-color);
+  border-radius: 50%;
+}
+
+
+/*EXPERIENCE ENDS HERE*/
 
 .highlighted-text {
   color: var(--highlight-txt-color);
