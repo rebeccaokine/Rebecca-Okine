@@ -358,19 +358,6 @@ body {
   list-style: none;
 }
 
-/*
-.experience ul li:before {
-  content: "";
-  position: absolute;
-  transform: translateY(-50%);
-  width: 8px;
-  height: 8px;
-  border: 2px solid var(--secondary-bg-color);
-  background-color: var(--primary-bg-color);
-  border-radius: 50%;
-}
-*/
-
 .experience ul {
   list-style: none;
 }
@@ -407,7 +394,7 @@ body {
 }
 
 .portfolio .header{
-  margin-left: 250px;
+  text-align: center;
 }
 
 .portfolio-card{
@@ -443,6 +430,7 @@ body {
 }
 
 /*PORTFOLIO ENDS HERE*/
+/* CSS */
 .contact-header{
     font-family: var(--heading-font-family);
     color: var(--highlight-txt-color);
@@ -479,7 +467,6 @@ body {
   padding: 8px 24px;
 }
 
-
 footer{
     font-size: 14px;
     font-weight: lighter;
@@ -491,6 +478,11 @@ footer{
 
 footer a{
   text-decoration: none;
+  color: var(--highlight-txt-color);
+}
+
+footer a:hover{
+  font-style:italic;
 }
 
 .highlighted-text {
