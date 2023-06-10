@@ -482,7 +482,7 @@ footer a{
 }
 
 footer a:hover{
-  font-style:italic;
+  color:var(--primary-txt-color);
 }
 
 .highlighted-text {

@@ -8,7 +8,7 @@ setTimeout(function () {
   loader.style.display = "none";
   mainContainer.style.display = "block";
   fixedLinks.style.display ="block";
-}, 2000);
+}, 3000);
 
 /*LOADER ENDS HERE */
 
