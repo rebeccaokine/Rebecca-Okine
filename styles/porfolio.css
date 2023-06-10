@@ -550,3 +550,19 @@ footer a:hover{
 .fixed-links{
   display: none;
 }
+
+/*ADDING RESPONSIVENESS*/
+/*Mobile*/
+@media (min-width: 576px){
+
+}
+
+/*Tablets*/
+@media (min-width: 992px){
+
+}
+
+/*Desktop*/
+@media (min-width: 1200px){
+  
+}
