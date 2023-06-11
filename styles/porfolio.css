@@ -390,10 +390,15 @@ body {
     color: var(--primary-txt-color);
 }
 
+.portfolio-container{
+  width: 50%;
+  margin: 0 auto;
+}
+/*
 .row{
   width: 60%;
   margin: 0 auto;
-}
+}*/
 
 .portfolio .header{
   text-align: center;
@@ -655,6 +660,10 @@ footer a:hover{
     }
 
     
+   /*.row{
+  width: 60%;
+  margin: 0 auto;
+  } */
 
 }
 
