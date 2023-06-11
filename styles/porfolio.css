@@ -391,8 +391,8 @@ body {
 }
 
 .row{
-  width: 70%;
-  margin-left: 350px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .portfolio .header{
