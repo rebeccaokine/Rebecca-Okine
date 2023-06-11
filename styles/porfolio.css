@@ -269,6 +269,7 @@ body {
   margin-bottom: 10px;
 }
 
+/*the bullet points*/
 .skills li:before {
   content: "";
   position: absolute;
@@ -284,6 +285,7 @@ body {
 
 .about-image {
   width: 400px;
+  height: auto;
   margin-left: 50px;
 }
 
@@ -553,16 +555,106 @@ footer a:hover{
 
 /*ADDING RESPONSIVENESS*/
 /*Mobile*/
-@media (min-width: 576px){
+@media (max-width: 600px){
+  .logo{
+    margin-left: 15px;
+  }
+
+  .resume{
+    margin-right: 15px;
+  }
+
+   .vl{
+    display: none;
+   }
+
+   .hero{
+    margin-top: 80px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+   }
+
+   .name{
+    font-size:48px;
+   }
+
+   .current-role{
+    font-size: 24px;
+   }
+
+   .hero-paragraph{
+    font-size: 14px;
+    line-height: 1.2;
+   }
+
+    .header{
+      font-size: 34px;
+      text-align: center;
+    }
+    
+    .about{
+      margin-left: 20px;
+      margin-right: 20px;
+     }
+
+    .about-paragraph{
+      font-size: 14px;
+    }
+
+    .about-image{
+      display: none;
+    }
+
+    .experience{
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 130px;
+    }
+
+    .experience-section{
+       font-size: 14px;
+       display: block;
+       
+    }
+
+    .button-container{
+      flex-direction: row;
+    }
+
+    .line{
+      display:none;
+    }
+
+    .row{
+      width:60%;
+      margin: 0 auto;
+    }
+     
+    .portfolio-card{
+      flex-direction: column;   
+    }
+    
+    #contact{
+      margin-top: 1000px;
+    }
+    .contact-prompt{
+      font-size:48px;
+    }
+
+    .contact-info{
+      font-size: 14px;
+    }
+    
+    .social-icons{
+      position: static;
+    }
+
+    .sidebar-navigation{
+      display: none;
+    }
+
+    
 
 }
 
-/*Tablets*/
-@media (min-width: 992px){
-
-}
-
-/*Desktop*/
-@media (min-width: 1200px){
-  
-}
