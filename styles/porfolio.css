@@ -652,7 +652,7 @@ footer a:hover{
     }
     
     .social-icons{
-      position: static;
+      display:none;
     }
 
     .sidebar-navigation{
