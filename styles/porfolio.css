@@ -294,9 +294,9 @@ body {
 /*EXPERIENCE STARTS HERE*/
 
 .experience{
-  height: 80vh;
-  margin-left: 250px;
-  margin-top: 110px;
+  display: grid;
+  place-items: center;
+  padding: 150px 0 150px 0;
   color: var(--primary-txt-color);
 }
 
@@ -489,7 +489,7 @@ body {
    display: grid;
    place-items: center;
    text-align: center;
-   margin-top: 150px;
+   margin-top: 220px;
 }
 
 .contact-prompt{
