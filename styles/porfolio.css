@@ -212,6 +212,7 @@ body {
 
 .hero-paragraph {
   font-size: 18px;
+  max-width: 600px;
 }
 
 .connect-button {
@@ -250,6 +251,7 @@ body {
 .about-paragraph {
   font-size: 18px;
   font-family: var(--secondary-font-family);
+  max-width: 600px;
 }
 
 .skills ul {
@@ -343,6 +345,10 @@ body {
   flex-grow: 1;
 }
 
+.description-container li{
+  max-width: 700px;
+}
+
 .description-container a{
     text-decoration: none;
     color: var(--highlight-txt-color);
@@ -421,6 +427,36 @@ body {
   transform: translateY(-5px);
 }
 
+.portfolio-icons{
+   color: var(--highlight-txt-color);
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+.portfolio:first-child{
+  margin-right: auto;
+}
+
+.portfolio:last-child{
+  margin-left: auto;
+}
+
+.portfolio-icons a{
+  color: var(--secondary-bg-color);
+  text-decoration: none;
+}
+
+.portfolio-icons a:hover{
+  color: var(--primary-txt-color);
+}
+
+.portfolio-icon-link{
+  display: flex;
+  align-items: center;
+}
+
 .app-name:hover{
   color: var(--primary-txt-color);
   cursor: pointer;
@@ -495,6 +531,8 @@ footer a:hover{
 
 .highlighted-text {
   color: var(--highlight-txt-color);
+  text-decoration: none;
+  font-weight: 400;
 }
 
 /**when text is highlighted**/
