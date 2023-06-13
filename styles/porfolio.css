@@ -330,8 +330,8 @@ body {
 }
 
 .experience-button:hover{
-    background-color: var(--secondary-bg-color);
-    border-right: var(--highlight-txt-color);
+    background-color: var(--highlight-txt-color);
+    color: var(--secondary-txt-color);
 }
 
 .line {
