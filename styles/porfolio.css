@@ -188,9 +188,8 @@ body {
   font-family: var(--secondary-font-family);
   height: 80vh;
   font-size: 18px;
-  margin-left: 250px;
-  margin-top: 30px;
-  padding: 25px 0 0 0;
+  margin: 0 auto;
+  padding: 50px 0 20px 250px;
 }
 
 .hi {
@@ -244,8 +243,12 @@ body {
 .about {
   display: flex;
   align-items: center;
-  margin-left: 250px;
   color: var(--primary-txt-color);
+}
+
+.about-container{
+  display: grid;
+  place-items: center;
 }
 
 .about-paragraph {
@@ -401,11 +404,6 @@ body {
   display: grid;
   place-items: center;
 }
-/*
-.row{
-  width: 60%;
-  margin: 0 auto;
-}*/
 
 .portfolio .header{
   text-align: center;
@@ -602,9 +600,9 @@ footer a:hover{
 }
 
 /*ADDING RESPONSIVENESS*/
-/*Mobile*/
+/* Extra small devices (phones, 600px and down) */
 
-@media (max-width: 600px){
+@media only screen and (max-width: 600px){
   .logo{
     margin-left: 15px;
   }
@@ -613,39 +611,38 @@ footer a:hover{
     margin-right: 15px;
   }
 
-   .vl{
+  .vl{
     display: none;
-   }
+  }
 
-   .hero{
-    margin-top: 80px;
-    margin-left: 15px;
-    margin-right: 15px;
+  .hero{
+    margin: 0 auto;
+    padding: 100px 15px 0 15px;
     text-align: left;
-   }
+  }
 
-   .name{
+  .name{
     font-size:48px;
-   }
+  }
 
-   .current-role{
+  .current-role{
     font-size: 24px;
-   }
+  }
 
-   .hero-paragraph{
+  .hero-paragraph{
     font-size: 14px;
     line-height: 1.2;
-   }
+  }
 
-    .header{
-      font-size: 34px;
-      text-align: center;
-    }
+  .header{
+    font-size: 34px;
+    text-align: center;
+  }
     
-    .about{
-      margin-left: 20px;
-      margin-right: 20px;
-     }
+  .about{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
     .about-paragraph{
       font-size: 14px;
@@ -656,15 +653,21 @@ footer a:hover{
     }
 
     .experience{
-      margin-left: 20px;
-      margin-right: 20px;
-      margin-top: 130px;
+      padding: 130px 20px 0 20px;
     }
 
     .experience-section{
        font-size: 14px;
        display: block;
-       
+    }
+
+    .experience-button:hover{
+      background-color:transparent;
+      color: var(--highlight-txt-color);
+    }
+
+    .description-container li{
+      max-width: 400px;
     }
 
     .button-container{
@@ -676,23 +679,25 @@ footer a:hover{
     }
 
     .row{
-      width:60%;
+      max-width: 300px;
       margin: 0 auto;
     }
      
     .portfolio-card{
-      flex-direction: column;   
+      flex-direction: column; 
     }
     
     #contact{
-      margin-top: 1000px;
+      padding-top: 1200px;
     }
+    
     .contact-prompt{
       font-size:48px;
     }
 
     .contact-info{
       font-size: 14px;
+      max-width: 350px;
     }
     
     .social-icons{
@@ -703,11 +708,28 @@ footer a:hover{
       display: none;
     }
 
-    
-   /*.row{
-  width: 60%;
-  margin: 0 auto;
-  } */
+    /*fix view on s8+*/
+}
+
+
+ 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+} 
