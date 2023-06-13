@@ -467,11 +467,16 @@ body {
     font-weight: lighter;
 }
 
+.language{
+  margin: 0 10px 0 10px;
+
+}
+
 .languages{
     font-weight: 100;
-    margin-bottom: 0;
-    
+    display: flex;
 }
+
 
 /*PORTFOLIO ENDS HERE*/
 /* CSS */
