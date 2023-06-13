@@ -314,10 +314,12 @@ body {
 .experience-button {
   margin-bottom: 10px;
   background-color: transparent;
-  border: none;
+  border:  2px solid var(--secondary-bg-color);
+  border-radius: 15px;
   color: var(--primary-txt-color);
   cursor: pointer;
   padding: 10px ;
+  font-family: var(--heading-font-family);
 }
 
 .experience-button.active {
@@ -326,8 +328,7 @@ body {
 }
 
 .experience-button:hover{
-    color: var(--highlight-txt-color);
-    background-color: #2e2053;
+    background-color: var(--secondary-bg-color);
     border-right: var(--highlight-txt-color);
 }
 
@@ -560,6 +561,7 @@ footer a:hover{
 
 /*ADDING RESPONSIVENESS*/
 /*Mobile*/
+
 @media (max-width: 600px){
   .logo{
     margin-left: 15px;
