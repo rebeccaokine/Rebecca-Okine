@@ -398,8 +398,8 @@ body {
 }
 
 .portfolio-container{
-  width: 50%;
-  margin: 0 auto;
+  display: grid;
+  place-items: center;
 }
 /*
 .row{
@@ -412,7 +412,7 @@ body {
 }
 
 .portfolio-card{
-    max-width:250px;
+    max-width:300px;
     padding: 20px;
     border: 2px solid var(--highlight-txt-color);
     border-radius: 15px;
@@ -468,13 +468,12 @@ body {
 }
 
 .language{
-  margin: 0 10px 0 10px;
-
+  text-align: center;
+  margin-right: 10px;
 }
 
 .languages{
     font-weight: 100;
-    display: flex;
 }
 
 
