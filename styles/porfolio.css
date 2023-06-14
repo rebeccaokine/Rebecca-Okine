@@ -688,7 +688,7 @@ footer a:hover{
     }
     
     #contact{
-      padding-top: 900px;
+      padding-top: 1000px;
     }
     
     .contact-prompt{
@@ -698,7 +698,7 @@ footer a:hover{
     .contact-info{
       font-size: 14px;
       max-width: 350px;
-      height: 40vh;
+      height: 50vh;
     }
     
     .social-icons{
