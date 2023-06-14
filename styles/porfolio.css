@@ -679,8 +679,8 @@ footer a:hover{
     }
 
     .row{
-      max-width: 500px;
-      justify-content: center;
+      max-width: 300px;
+      margin: 0 auto;
     }
      
     .portfolio-card{
