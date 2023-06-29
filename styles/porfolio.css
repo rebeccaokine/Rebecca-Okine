@@ -648,7 +648,7 @@ footer a:hover{
     font-style: italic;
     border: 2px solid var(--secondary-bg-color);
     border-radius: 15px;
-    padding: 8px 24px;
+    padding: 10px 24px;
   }
 
   .header{
