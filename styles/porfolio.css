@@ -641,15 +641,14 @@ footer a:hover{
   .connect-button {
     text-decoration: none;
     color: var(--highlight-txt-color);
-    background-color: transparent;
     font-family: var(--heading-font-family);
-    font-size: 20px;
+    background-color: transparent;
+    font-size: 22px;
     font-weight: bold;
     font-style: italic;
     border: 2px solid var(--secondary-bg-color);
     border-radius: 15px;
     padding: 8px 24px;
-    margin-right: 50px;
   }
 
   .header{
