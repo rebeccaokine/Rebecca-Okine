@@ -455,6 +455,10 @@ body {
   align-items: center;
 }
 
+.githublink-icons{
+  margin-left: 90px;
+}
+
 .app-name:hover{
   color: var(--primary-txt-color);
   cursor: pointer;
